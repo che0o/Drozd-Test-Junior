@@ -1,0 +1,17 @@
+@import "media";
+@import "vars";
+
+//normalize
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+//setups
+@import url('../fonts/golostext_regular.ttf');
+
+@import "layout";
+
+//components
+@import "components/header";
+@import "components/burger";
+@import "components/overlay";
+@import "components/dropdown";
+@import "components/menu";

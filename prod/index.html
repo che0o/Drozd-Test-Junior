@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.min.css">
+    <title>Drozd-Test-Junior</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="burger__container">
+                    <div href="#" class="burger">
+                        <span class="burger__plank"></span>
+                        <span class="burger__plank"></span>
+                        <span class="burger__plank"></span>
+                    </div>
+                    <div id="menu" class="overlay">
+                        <div class="overlay__menu">
+                            <div class="overlay__header">
+                                <div id="lang-btn" class="overlay__lang-btn">
+                                    <img src="./img/ru.svg" alt="ru" class="overlay__lang-btn--img">
+                                    <span class="overlay__lang-btn--text">Ru</span>
+                                    <img src="./img/arrow.svg" alt="" class="overlay__lang-btn--arrow">
+                                </div>
+                                <div id="lang-dropdown">
+                                    <div class="dropdown-option">
+                                        <div class="country-title">Страна</div>
+                                    </div>
+                                    <div data-country="US" class="dropdown-option-unactive">
+                                        <div>
+                                            <img class="country-flag" src="./img/Icon_US.svg" alt="USA" data-flag="Американский флаг"/>
+                                            <span class="country">United States</span>
+                                        </div>
+                                        <img class="check-mark" src="./img/check-mark.svg" alt="check mark"/>
+                                    </div>
+                                    <div data-country="Nl" class="dropdown-option-unactive">
+                                        <div>
+                                            <img class="country-flag" src="./img/Icon_NL.svg" alt="Нидерланды" data-flag="Голландский флаг"/>
+                                            <span class="country">Netherlands</span>
+                                        </div>
+                                        <img class="check-mark" src="./img/check-mark.svg" alt="check mark"/>
+                                    </div>
+                                    <div data-country="By" class="dropdown-option-unactive">
+                                        <div>
+                                            <img class="country-flag" src="./img/Icon_BY.svg" alt="Беларусь" data-flag="Флаг Беларуси"/>
+                                            <span class="country">Беларусь</span>
+                                        </div>
+                                        <img class="check-mark" src="./img/check-mark.svg" alt="check mark"/>
+                                    </div>
+                                    <div data-country="Ru" class="dropdown-option-active">
+                                        <div>
+                                            <img class="country-flag" src="./img/Icon_RU.svg" alt="Россия" data-flag="Флаг России"/>
+                                            <div class="country">
+                                                Россия
+                                            </div>
+                                        </div>
+                                        <img class="check-mark" src="./img/check-mark.svg" alt="check mark"
+                                        />
+                                    </div>
+                                    <div data-country="Kz" class="dropdown-option-unactive">
+                                        <div>
+                                            <img class="country-flag" src="./img/Icon_KZ.svg" alt="Казахстан" data-flag="Флаг Казахстана"/>
+                                            <div class="country">
+                                                Казахстан
+                                            </div>
+                                        </div>
+                                        <img class="check-mark" src="./img/check-mark.svg" alt="check mark"/>
+                                    </div>
+                                    <div data-country="Tü" class="dropdown-option-unactive">
+                                        <div>
+                                            <img class="country-flag" src="./img/Icon_TR.svg" alt="Турция" data-flag="Турецкий флаг"/>
+                                            <div class="country">
+                                                Türkiye
+                                            </div>
+                                        </div>
+                                        <img class="check-mark" src="./img/check-mark.svg" alt="check mark"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <nav class="menu-overlay active">
+                                <ul class="menu__list">
+                                    <li class="menu__item" id="services-btn">
+                                        <a href="#" class="menu__link">Services</a>
+                                        <img src="./img/arrow-menu.svg" alt="arrow" class="menu-overlay--arrow">
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">Managed IT</a>
+                                        <img src="./img/arrow-menu.svg" alt="arrow" class="menu-overlay--arrow">
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">Telecom Solutions</a>
+                                        <img src="./img/arrow-menu.svg" alt="arrow" class="menu-overlay--arrow">
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="#" class="menu__link">About Us</a>
+                                        <img src="./img/arrow-menu.svg" alt="arrow" class="menu-overlay--arrow">
+                                    </li>
+                                </ul>
+                            </nav>
+                            <nav class="menu-services">
+                                <div class="menu-services__header">
+                                    <img src="./img/arrow-menu.svg" alt="arrow" class="menu-services__header--arrow">
+                                    <span class="menu-services__title">Services</span>
+                                </div>
+                                <ul class="menu-services__options">
+                                    <li class="menu-services__options--item">
+                                      <a href="#">Облачные вычисления</a>
+                                      <img src="./img/arrow-menu.svg" alt="arrow" class="menu-services__options--arrow">
+                                    </li>
+                                    <li class="menu-services__options--item">
+                                      <a href="#">Выделенные серверы</a>
+                                      <img src="./img/arrow-menu.svg" alt="arrow" class="menu-services__options--arrow">
+                                    </li>
+                                    <li class="menu-services__options--item">
+                                      <a href="#">Платформенные сервисы</a>
+                                      <img src="./img/arrow-menu.svg" alt="arrow" class="menu-services__options--arrow">
+                                    </li>
+                                    <li class="menu-services__options--item">
+                                      <a href="#">Информационная безопасность</a>
+                                      <img src="./img/arrow-menu.svg" alt="arrow" class="menu-services__options--arrow">
+                                    </li>
+                                </ul>
+                            </nav>
+                            <nav class="menu-cloud">
+                                <div class="menu-cloud__header">
+                                    <img src="./img/arrow-menu.svg" alt="arrow" class="menu-cloud__header--arrow">
+                                    <span class="menu-cloud__title">Облачные вычисления</span>
+                                </div>
+                                <ul class="menu-cloud__options">
+                                    <li>
+                                        <a href="#">Cloud consulting</a>
+                                        <p>Relational database services for MySQL, PostgreSQL, and SQL server.</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">Cloud infrastructure analytics</a>
+                                        <p>Health-specific solutions to enhance the patient experience.</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hybrid Cloud</a>
+                                        <p>Data storage, AI, and analytics solutions for government agencies.</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hybrid Cloud</a>
+                                        <p>Data storage, AI, and analytics solutions for government agencies.</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">Multicloud</a>
+                                        <p>Relational database services for MySQL, PostgreSQL, and SQL server.</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">Multicloud</a>
+                                        <p>Relational database services for MySQL, PostgreSQL, and SQL server.</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">Multicloud</a>
+                                        <p>Relational database services for MySQL, PostgreSQL, and SQL server.</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">Multicloud</a>
+                                        <p>Relational database services for MySQL, PostgreSQL, and SQL server.</p>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <ul class="menu__content-bottom active">
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Поиск</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/dropdown.js"></script>
+    <script src="./scripts/over-menu.js"></script>
+</body>
+</html>
